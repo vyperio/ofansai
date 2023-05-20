@@ -1,0 +1,171 @@
+#button:disabled{
+    color: #666;
+    cursor: not-allowed;
+	animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+#button.off:disabled{
+	background-color: grey;
+	color: #fff;
+	animation-duration: 0s;
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
+}
+
+
+#copyResponse:active{
+    background: #000;
+}
+.hide{
+	display: none;
+}
+
+.grey-text{
+	color: #666;
+}
+
+.btn-primary{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #0074eb;
+	color: #fff;
+	border: 1px solid #000;
+	padding: 5px 30px 5px 8px;
+	cursor: pointer;
+	line-height: 38px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:18px;
+	border-radius: 6px;
+	margin-top:30px;
+}
+.btn-primary svg{
+	margin-right: 10px;
+}
+.btn-primary:hover{
+	background: #0080ff;
+}
+.btn-secondary{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #4b9ced;
+	color: #fff;
+	border: 1px solid #1c69b6;
+	padding: 7px 30px 7px 8px;
+	cursor: pointer;
+	line-height: 23px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:14px;
+	border-radius: 6px;
+	margin-top:20px;
+}
+.btn-secondary:hover{
+	background: #52a6fb;
+}
+.btn-logout{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #99a8b8;
+	color: #fff;
+	border: 1px solid #7d8d9e;
+	padding: 2px 8px 2px 8px;
+	cursor: pointer;
+	line-height: 23px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:12px;
+	border-radius: 4px;
+	margin-top: 14px;
+}
+
+.loginArea a{
+	color: #0074eb;
+}
+.loginArea label{
+	font-size:13px;
+}
+.loginArea input{
+	width: 100%;
+}
+.error{
+	color: #ff0000;
+	font-size: 12px;
+}
+.btn-login{
+	justify-content: center;
+	background: #0074eb;
+	color: #fff;
+	border: 1px solid #000;
+	padding: 5px 0px 5px 0px;
+	cursor: pointer;
+	line-height: 38px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:18px;
+	border-radius: 6px;
+	margin-top:30px;
+	width: 100%;
+}
+.btn-login:hover{
+	background: #0080ff;
+}
+
+.btn-small{
+	font-size:14px;
+	margin-top:10px;
+	line-height:32px;
+}
+.btn-small svg{
+	margin: 1px 12px 0px 5px;
+}
+
+.btn-tertiary{
+	flex-direction: row;
+	justify-content: center;
+	background: #4b9ced;
+	color: #fff;
+	border: 1px solid #1c69b6;
+	padding: 7px 30px 7px 8px;
+	cursor: pointer;
+	line-height: 23px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:14px;
+	border-radius: 6px;
+	margin-top:20px;
+}
+.btn-tertiary:hover{
+	background: #52a6fb;
+}
+
+.updates{
+	margin-bottom: 10px;
+	background-color: #ffe494;
+	padding: 10px;
+}
+.updates a{
+	display: block;
+}
